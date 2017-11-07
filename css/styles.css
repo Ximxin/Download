@@ -1,0 +1,14 @@
+
+body{font-size: 16px;font-family:"微软雅黑","宋体";}
+
+.nav{height:40px;background-color:#E5E5E5;line-height:40px;padding-left:20px;}
+
+h5{background-image:}
+
+ul{margin:0px;padding:0px;}
+	ul li{list-style-type:none;}
+	ul li a{margin-left:0px;}
+	ul li i{display:block;float:right;margin-left:5px;}
+
+
+
