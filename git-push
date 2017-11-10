@@ -1,0 +1,11 @@
+#!/bin/bash
+currentdir=$(cd "${0%/*}" >/dev/null 2>&1;pwd)
+echo -n "please input commit:"
+read commited
+if [ -e "$currentdir/.git" ];then
+git add .
+git commit -m "$commited"
+git push -f origin master
+else
+echo "please switch master directory!"
+fi
